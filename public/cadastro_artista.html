@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Artista</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container my-5">
+    <h2>Cadastro de Artista</h2>
+    <form id="formArtista">
+      <input type="text" id="nome" class="form-control mb-2" placeholder="Nome" required>
+      <input type="text" id="album" class="form-control mb-2" placeholder="Álbum" required>
+      <input type="text" id="imagem_principal" class="form-control mb-2" placeholder="URL da Imagem">
+      <textarea id="descricao" class="form-control mb-2" placeholder="Descrição" required></textarea>
+      <div class="form-check mb-3">
+        <input type="checkbox" id="destaque" class="form-check-input">
+        <label class="form-check-label" for="destaque">Destaque</label>
+      </div>
+      <button class="btn btn-success" type="submit">Salvar</button>
+    </form>
+  </div>
+  <script src="../assets/js/cadastro.js"></script>
+</body>
+</html>

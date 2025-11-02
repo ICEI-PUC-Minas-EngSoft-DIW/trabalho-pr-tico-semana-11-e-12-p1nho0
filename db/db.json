@@ -1,18 +1,28 @@
 {
-  "usuarios": [
+  "artistas": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "MC Ig",
+      "descricao": "Cantor e compositor de funk paulista, com diversos hits de sucesso.",
+      "album": "Favelado Chique (2024)",
+      "imagem_principal": "../assets/img/mcig.png",
+      "destaque": true
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "Henrique e Juliano",
+      "descricao": "Dupla sertaneja brasileira reconhecida nacionalmente.",
+      "album": "Manifesto Musical (2023)",
+      "imagem_principal": "../assets/img/henriqueejuliano.jfif",
+      "destaque": true
+    },
+    {
+      "id": 3,
+      "nome": "Artista Pop",
+      "descricao": "Novo talento da música pop nacional.",
+      "album": "Céu Aberto (2025)",
+      "imagem_principal": "../assets/img/artista1.png",
+      "destaque": false
     }
   ]
 }
